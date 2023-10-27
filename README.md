@@ -1,34 +1,66 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Netflix Clone
 
-First, run the development server:
+interfaz de usuario de Netflix, desarrollado utilizando Next.js. Utiliza tecnologías como Firebase para la autenticación de usuarios, React Hook Forms para formularios, Tailwind CSS para estilos y TypeScript como lenguaje de programación. Además, integra la API de IMDb para obtener información sobre películas, incluyendo categorías, detalles y trailers usando React Player.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Demostración
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Puedes ver una demostración en vivo de este proyecto [aquí](https://netflix-clone-jxiyg5aiz-javier193061.vercel.app).
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+[![Vista previa del proyecto](enlace a una imagen o captura de pantalla)]
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Tecnologías Utilizadas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Next.js](https://nextjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [React Hook Forms](https://react-hook-form.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [API de IMDb](https://developer.imdb.com/)
 
-## Learn More
+## Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- Autenticación de usuarios a través de Firebase.
+- Visualización de películas por categoría.
+- Detalles de películas, incluyendo información como el título, el elenco y la descripción.
+- Reproducción de trailers utilizando React Player.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Capturas de Pantalla
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![1](https://github.com/JaviDevp/netflix-clone/assets/65985590/030dc186-b837-4a26-ae75-7ab04c0df7ff)
 
-## Deploy on Vercel
+![2](https://github.com/JaviDevp/netflix-clone/assets/65985590/231615b6-de2f-4f8e-a729-04b65f2c3195)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![3](https://github.com/JaviDevp/netflix-clone/assets/65985590/b681bf49-649f-4fba-8f99-880c6a39597c)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![4](https://github.com/JaviDevp/netflix-clone/assets/65985590/5bb37252-5b4e-4eb3-b45d-3b74d79f1889)
+
+## Instalación
+
+Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
+
+1. Clona el repositorio:
+
+   ```bash
+    git clone https://github.com/tu-usuario/netflix-clone.git
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Configura las credenciales de Firebase y la API de IMDb en el archivo de configuración.
+4. Inicia el proyecto:
+   ```bash
+   npm run dev
+   ```
+
+## Uso
+
+Para utilizar este proyecto, sigue estos pasos:
+
+1. Crea una cuenta o inicia sesión con tu cuenta de Netflix.
+2. Explora las películas disponibles por categoría.
+3. Haz clic en una película para ver detalles como el título, el elenco y la descripción.
+4. Reproduce el trailer de la película.
