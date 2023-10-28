@@ -43,7 +43,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 1. Clona el repositorio:
 
    ```bash
-    git clone https://github.com/tu-usuario/netflix-clone.git
+    git clone https://github.com/JaviDevp/netflix-clone.git
    ```
 
 2. Instala las dependencias:
